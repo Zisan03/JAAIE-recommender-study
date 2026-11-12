@@ -1,0 +1,206 @@
+{
+ "FFF-2013J": {
+  "flow": {
+   "registered": 2283,
+   "clicked_before_cutoff": 2097,
+   "ge10_materials": 1997,
+   "evaluable": 1296,
+   "scored": 1864,
+   "flagged_weak": 207,
+   "weak_evaluable": 101
+  },
+  "selection": [
+   {
+    "group": "evaluable",
+    "n": 101,
+    "mean_early_score": 47.03135313531354,
+    "median_clicks_before_cutoff": 954.0,
+    "pass_rate": 0.37623762376237624,
+    "withdrawn_rate": 0.04950495049504951
+   },
+   {
+    "group": "not evaluable",
+    "n": 106,
+    "mean_early_score": 43.378930817610055,
+    "median_clicks_before_cutoff": 480.5,
+    "pass_rate": 0.0,
+    "withdrawn_rate": 0.4056603773584906
+   }
+  ],
+  "flags": [
+   {
+    "rule": "early score < 50",
+    "flagged_share": 0.06588109266202463,
+    "precision": 0.8861788617886179,
+    "recall": 0.1411917098445596
+   },
+   {
+    "rule": "early score < 55",
+    "flagged_share": 0.11087305838243171,
+    "precision": 0.8164251207729468,
+    "recall": 0.2189119170984456
+   },
+   {
+    "rule": "early score < 60",
+    "flagged_share": 0.16925549009105517,
+    "precision": 0.75,
+    "recall": 0.3069948186528497
+   },
+   {
+    "rule": "lowest-20% activity, day 14",
+    "flagged_share": 0.2007007007007007,
+    "precision": 0.6783042394014963,
+    "recall": 0.301218161683278
+   }
+  ],
+  "relaxed": {
+   "users": 1328,
+   "weak_n": 108,
+   "hyb_minus_cf_weak": -0.07711791821575752,
+   "hyb_minus_cf_other": -0.08234122183974318,
+   "did": 0.005542141592769236,
+   "did_ci": [
+    -0.020545880920039297,
+    0.030143357599604192
+   ],
+   "mwu_p": 0.9389846479296513,
+   "hyb_minus_cf_all_ndcg10": -0.08167814075627447
+  }
+ },
+ "DDD-2013J": {
+  "flow": {
+   "registered": 1938,
+   "clicked_before_cutoff": 1768,
+   "ge10_materials": 1668,
+   "evaluable": 1032,
+   "scored": 1504,
+   "flagged_weak": 245,
+   "weak_evaluable": 81
+  },
+  "selection": [
+   {
+    "group": "evaluable",
+    "n": 81,
+    "mean_early_score": 46.27777777777778,
+    "median_clicks_before_cutoff": 478.0,
+    "pass_rate": 0.2839506172839506,
+    "withdrawn_rate": 0.2222222222222222
+   },
+   {
+    "group": "not evaluable",
+    "n": 164,
+    "mean_early_score": 39.516260162601625,
+    "median_clicks_before_cutoff": 224.5,
+    "pass_rate": 0.0,
+    "withdrawn_rate": 0.6097560975609756
+   }
+  ],
+  "flags": [
+   {
+    "rule": "early score < 50",
+    "flagged_share": 0.1201859229747676,
+    "precision": 0.9558011049723757,
+    "recall": 0.2551622418879056
+   },
+   {
+    "rule": "early score < 55",
+    "flagged_share": 0.16268260292164674,
+    "precision": 0.9061224489795918,
+    "recall": 0.3274336283185841
+   },
+   {
+    "rule": "early score < 60",
+    "flagged_share": 0.22841965471447542,
+    "precision": 0.8430232558139535,
+    "recall": 0.4277286135693215
+   },
+   {
+    "rule": "lowest-20% activity, day 14",
+    "flagged_share": 0.20071471113758188,
+    "precision": 0.7151335311572701,
+    "recall": 0.28352941176470586
+   }
+  ],
+  "relaxed": {
+   "users": 1092,
+   "weak_n": 98,
+   "hyb_minus_cf_weak": -0.07301306134549125,
+   "hyb_minus_cf_other": -0.01580996185751019,
+   "did": -0.056666470352423164,
+   "did_ci": [
+    -0.0913920514212302,
+    -0.02451662777858678
+   ],
+   "mwu_p": 5.948058065242506e-05,
+   "hyb_minus_cf_all_ndcg10": -0.02107931680051661
+  }
+ },
+ "CCC-2014J": {
+  "flow": {
+   "registered": 2498,
+   "clicked_before_cutoff": 2302,
+   "ge10_materials": 2081,
+   "evaluable": 1219,
+   "scored": 1998,
+   "flagged_weak": 348,
+   "weak_evaluable": 88
+  },
+  "selection": [
+   {
+    "group": "evaluable",
+    "n": 88,
+    "mean_early_score": 43.0155303030303,
+    "median_clicks_before_cutoff": 571.0,
+    "pass_rate": 0.20454545454545456,
+    "withdrawn_rate": 0.13636363636363635
+   },
+   {
+    "group": "not evaluable",
+    "n": 260,
+    "mean_early_score": 33.627435897435895,
+    "median_clicks_before_cutoff": 238.0,
+    "pass_rate": 0.0,
+    "withdrawn_rate": 0.8
+   }
+  ],
+  "flags": [
+   {
+    "rule": "early score < 50",
+    "flagged_share": 0.14564564564564564,
+    "precision": 0.9690721649484536,
+    "recall": 0.2865853658536585
+   },
+   {
+    "rule": "early score < 55",
+    "flagged_share": 0.17417417417417416,
+    "precision": 0.9482758620689655,
+    "recall": 0.3353658536585366
+   },
+   {
+    "rule": "early score < 60",
+    "flagged_share": 0.23773773773773774,
+    "precision": 0.9157894736842105,
+    "recall": 0.4420731707317073
+   },
+   {
+    "rule": "lowest-20% activity, day 14",
+    "flagged_share": 0.20633397312859886,
+    "precision": 0.7093023255813954,
+    "recall": 0.2853133769878391
+   }
+  ],
+  "relaxed": {
+   "users": 1322,
+   "weak_n": 106,
+   "hyb_minus_cf_weak": -0.04882526030235443,
+   "hyb_minus_cf_other": -0.011814132773292968,
+   "did": -0.03659715974301419,
+   "did_ci": [
+    -0.08276226305440848,
+    0.008803621695258172
+   ],
+   "mwu_p": 0.1415199797609232,
+   "hyb_minus_cf_all_ndcg10": -0.015215715798094774
+  }
+ }
+}
